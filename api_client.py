@@ -24,3 +24,9 @@ class ApiClient:
     @allure.step("Получить список ингредиентов")
     def get_ingredients():
         return requests.get(URL.INGREDIENTS_URL)
+
+    @staticmethod
+    @allure.step("Удаление пользователя")
+    def delete_user(token):
+        headers = {"Authorization": f"Bearer {token}"}
+        return requests.delete(URL.REGISTER_USER_URL, headers=headers)
