@@ -1,0 +1,48 @@
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Кэш и временные файлы Python
+__pycache__/
+*.py[cod]
+*\$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Результаты тестов и отчеты Allure
+.pytest_cache/
+allure-results/
+allure-report/
+
+# Файлы IDE (JetBrains / VS Code)
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+*.swp
+*.swo
+
+# Системные файлы ОС
+.DS_Store
+Thumbs.db
+
+# Переменные окружения
+.env
+.env.local
